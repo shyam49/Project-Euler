@@ -1,13 +1,12 @@
 import sys
-n=int(raw_input())
-d=int(raw_input())
+n=int(raw_input()) #number of elements
+d=int(raw_input()) #number of digits in each element
 a=[]
 for i in range(n):
-	b=list(raw_input())
+	b=list(raw_input()) #element
 	b=[int(x) for x in b]
 	a.append(b)
-#print a
-t=int(raw_input())
+t=int(raw_input()) #first t digits of the sum
 ans=[]
 sum=0
 for j in range(d-1,-1,-1):
