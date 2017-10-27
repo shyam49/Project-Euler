@@ -4,8 +4,8 @@ def len_collatz(n):
 		if n%2==0:
 			n=n/2
 		else:
-			n=3*n+1
-		cnt+=1
+			n=(3*n)+1
+		cnt = cnt + 1
 	return cnt
 
 max=0
